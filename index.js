@@ -10,7 +10,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 
-// fileSave utility - allows for writing of the newFile.html
+// fileSave utility - allows for writing of the index.html
 const fs = require("fs");
 
 // runInquirer is the function used to build the user prompts
@@ -168,7 +168,7 @@ async function run() {
         return html;
     }
 
-    // creates the newFile html page 
+    // creates the index.html page 
     // style based on bootstrap CSS
     // mobile responsive with flexbox
     let html = `
@@ -236,10 +236,10 @@ async function run() {
 </html>
 `;
 
-    // function to write newFile.html file
+    // function to write index.html file
     console.log(html);
     const fs = require("fs");
-    fs.writeFile('newfile.html', html, function (err) {
+    fs.writeFile('index.html', html, function (err) {
         if (err) throw err;
         console.log('File is created successfully.');
     });
