@@ -1,5 +1,13 @@
+// Test file for Engineer constructor class
+// <npm init -y> then <npm i -D jest> to install testing suite
+// call from package.json with <npm test>
+
+// requirements for test
 const Manager = require("../lib/Manager");
 const Employee = require("../lib/Employee");
+
+// test methods
+// testing includes: office number instantiated, declared methods functional
 
 describe('test', () => {
     it("should set office number via constructor argument", () => {
