@@ -9,6 +9,10 @@ This is a command line app that builds a webpage of your team, with individual t
 
 https://drive.google.com/file/d/1FUJmHU2iZ5yCuVwhvA110jOSjNcmKr8W/view
 
+## Deployed webpage
+
+https://iguessimnick.github.io/homework-10-team-profile-generator/
+
 ## Operations
 1. Initialize the npm suites
     a. open the intregrated terminal on the index.js file
